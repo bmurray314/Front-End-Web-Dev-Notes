@@ -4,11 +4,42 @@
       This is the title of the page
     </title>
     <style type="text/css">
-      .headings {
+      body {
+        padding: 10px;
+        color:black;
+        font-family: Georgia;
+        font-size: 100%;
+      }
+      body .headings {
         color: green;
+        padding: inherit;
+        background-color: lightgreen;
+      }
+      h1, h2 {
+        background-color:grey;
+        text-transform: uppercase;
+        font-size: 300%;
+        text-shadow: 2px 2px 7px black;
+      }
+      p {
+        line-height: 150%;
+        text-align: left;
+      }
+      a:link {
+        color: green;
+        text-decoration: none;
+      }
+      a:visited {
+        color: deeppink;
+        font-style: italic;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: blue;
       }
       
     </style>
+    
   </head>
   <body>
     <div class="headings">
@@ -30,6 +61,16 @@
     <h6>
       Heading 6
     </h6>
+    </div>
+    
+    <div id="Main Text">
+      <p>
+        This is an exmple of plain text. This is an exmple of plain text. This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.This is an exmple of plain text.
+      </p>
+      <p>
+        These are examples of <a href="http://www.google.com" target="_blank">Google Link</a>
+      </p>
+      
     </div>
     
     
