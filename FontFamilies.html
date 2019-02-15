@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>
+      Font Family Example Page
+    </title>
+    <style>
+      p {
+        font-family: Times, Georgia, serif;
+        line-height: 1.5em;
+      }
+      .code {
+        font-family: Courier, "Courier New", monospace;
+        font-weight: bold;
+      }
+      #Georgia {
+        font-family: Georgia;
+      }
+      #Arial {
+        font-family: Arial;
+      }
+      #Courier {
+        font-family: Courier;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+  This is the serif font-family. Serif fonts have extra details on the end of the main strokes of the letters. Browers are supposed to support at least one font style of each category. In this case, it is typical to write <span class="code">font-family: Georgia, Times, serif.</span> This would mean that the website should look for the Georgia font, then if that one is not installed, go the Times font, then if none of the others are installed, go to whatever serif font is installed. If a font name is multiple words, it needs to be put in double quotes. (It's considered standard practice to only choose your top two choices then to pick a generic one for the last choice.
+  </p>
+  <div id="Georgia">
+    <span class="code">Font:</span> Georgia <br />
+    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+  </div> <hr />
+  <div id="Times">
+    <span class="code">Font:</span> Times <br />
+    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+  </div> <hr />
+  <div id="Arial">
+    <span class="code">Font:</span> Arial <br />
+    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+  </div> <hr />
+  <div id="Courier">
+    <span class="code">Font:</span> Courier <br />
+    Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+  </div> <hr />
+  </body>
+</html>
