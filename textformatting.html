@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> Text Formatting Example Page</title>
+    <style>
+      p.normal {
+        font-weight: normal;
+        font-style: normal;
+      }
+      p.bold {
+        font-weight: bold;
+      }
+      p.italic {
+        font-style: italic;
+      }
+      p.oblique {
+        font-style: oblique;
+      }
+      p.uppercase {
+        text-transform: uppercase;
+      }
+      p.lowercase {
+        text-transform: lowercase;
+      }
+      p.capitalize {
+        text-transform: capitalize;
+      }
+      .one {
+        background-color: #eeeeee;
+        color: #666666;
+        text-shadow: 1px 1px 0px #000000;
+        font-size: 150%;
+      }
+      .two {
+        background-color: #dddddd;
+        color: #666666;
+        text-shadow: 1px 1px 3px #666666;
+        font-size: 150%;
+      }
+      .three {
+        background-color: #cccccc;
+        color: #ffffff;
+        text-shadow: 2px 2px 7px #111111;
+        font-size: 150%;
+      }
+      .four {
+        background-color: #bbbbbb;
+        color: #cccccc;
+        text-shadow: -1px -2px #666666;
+        font-size: 150%;
+      }
+      .five {
+        background-color: #aaaaaa;
+        color: #ffffff;
+        text-shadow: -1px -1px #111111;
+        font-size: 150%;
+      }
+      p.example:first-letter{
+        font-size: 200%;
+      }
+      p.example:first-line{
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Font Weights</h2>
+    <p class="normal">
+      This is normal text.
+    </p>
+    <p class="bold">
+      This is bold text.
+    </p>
+    <h2>Font Styles</h2>
+    <p class="normal">
+      This is normal text.
+    </p>
+    <p class="italic">
+      This is italic text.
+    </p>
+    <p class="oblique">
+      This is oblique text.
+    </p>
+    <h2>Text Transforms</h2>
+    <p class="uppercase">
+      This is uppercase text.
+    </p>
+    <p class="lowercase">
+      This is lowercase text.
+    </p>
+    <p class="capitalize">
+      This is capitalized text.
+    </p>
+    <h2>Text Shadows</h2>
+    <ul>
+      <li class="one">This is text shadow example #1.</li>
+      <li class="two">This is text shadow example #2.</li>
+      <li class="three">This is text shadow example #3.</li>
+      <li class="four">This is text shadow example #4.</li>
+      <li class="five">This is text shadow example #5.</li>
+    </ul>
+    <h2> First Letter/Line</h2>
+    <p class="example">
+      This is an example of a paragraph where the first line will be bold and the first letter of the paragraph will have a font-size which is 200% (double) what it normall is. These are both technically called 'pseudo-elements'. CSS thinks of these as extra elements in the code. With the element being separate, it can be styled separately to stand out. There are also peusdo-classes too!
+    </p>
+  </body>
+</html>
