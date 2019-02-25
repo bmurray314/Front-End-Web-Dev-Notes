@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:  1px 1px 5px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-bar {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-bar > li {
+  float: right;
+  list-style-type: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  text-transform: uppercase;
+}
+.nav-bar > li:hover {
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px;
+  background-color: white;
+}
+.nav-bar::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-bottom: 10px;
+}
+
+.article-title {
+  float: left;
+  font-family: sans-serif;
+  vertical-align: center;
+}
